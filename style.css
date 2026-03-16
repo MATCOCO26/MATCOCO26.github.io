@@ -16,6 +16,24 @@ css
   border-bottom: 1px solid var(--line);
 }
 
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+  gap: 20px;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: var(--text);
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
 
 h1 {
     color: #2c3e50;
