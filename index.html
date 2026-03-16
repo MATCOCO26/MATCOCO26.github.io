@@ -1,62 +1,210 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="fr">
 <head>
-<title> Mon Portfolio </title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cédric Gassuc | Data Scientist</title>
+  <meta
+    name="description"
+    content="Portfolio de Cédric Gassuc, Data Scientist spécialisé en Machine Learning, Deep Learning, NLP et IA générative."
+  />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="logo">Cédric Gassuc</a>
+      <nav class="nav-links">
+        <a href="#about">À propos</a>
+        <a href="#skills">Compétences</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<h1>Bonjour,</h1>
-<h2>Je suis Cédric Gassuc </h2>
-<p> Data Scientist spécialisé en : </p>
-<ul>
-<li> Machine Learning </li>
-<li> Deep Learning </li>
-<li> IA générative </li>
-<li> Maintenance Conditionnelle(CBM) </li>
-<li> NLP </li>
-</ul>
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Portfolio • Data Scientist</p>
+        <h1>Je conçois des solutions data utiles, robustes et orientées métier.</h1>
+        <p class="hero-text">
+          Data Scientist spécialisé en Machine Learning, Deep Learning, NLP,
+          IA générative et maintenance conditionnelle. Je construis des projets
+          alliant modélisation, visualisation, industrialisation et impact métier.
+        </p>
 
-<h2>Mes projets</h2>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#projects">Voir mes projets</a>
+          <a class="btn btn-secondary" href="https://github.com/TON-USERNAME" target="_blank" rel="noopener noreferrer">
+            Mon GitHub
+          </a>
+        </div>
+      </div>
+    </section>
 
-<ul>
-<li>Credit Risk Scoring</li>
-<li>Réalisez un dashboard et assurez une veille technique</li>
-<li>Réalisez un traitement dans un environnement Big Data sur le Cloud</li>
-<li>Maintenance Conditionnelle(CBM) des systèmes TGV</li>
-<li>Segmentez des clients d'un site e-commerce</li>
-</ul>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>À propos</h2>
+        <p class="section-intro">
+          Je suis Cédric Gassuc, Data Scientist avec une approche orientée produit :
+          comprendre le besoin, exploiter les données, construire des modèles fiables
+          et les rendre utilisables via dashboards, API ou pipelines reproductibles.
+        </p>
+      </div>
+    </section>
 
-<h2>Projets</h2>
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Compétences</h2>
+        <p class="section-intro">
+          Une stack pensée pour couvrir tout le cycle de vie d’un projet data.
+        </p>
 
-<div>
-<h4>Credit Risk Scoring</h4>
-<p>Implémention d'un Modèle de Scoring</p>
-<a href="https://github.com/username/credit-risk-scoring">Voir le projet</a>
-</div>
+        <div class="skills-grid">
+          <span class="skill-badge">Machine Learning</span>
+          <span class="skill-badge">Deep Learning</span>
+          <span class="skill-badge">NLP</span>
+          <span class="skill-badge">IA générative</span>
+          <span class="skill-badge">Python</span>
+          <span class="skill-badge">Scikit-learn</span>
+          <span class="skill-badge">Pandas</span>
+          <span class="skill-badge">TensorFlow</span>
+          <span class="skill-badge">PyTorch</span>
+          <span class="skill-badge">Streamlit</span>
+          <span class="skill-badge">Flask / FastAPI</span>
+          <span class="skill-badge">Docker</span>
+          <span class="skill-badge">MLflow</span>
+          <span class="skill-badge">Big Data</span>
+          <span class="skill-badge">Cloud</span>
+          <span class="skill-badge">Maintenance conditionnelle</span>
+        </div>
+      </div>
+    </section>
 
-<div>
-<h4>Réalisez un dashboard et assurez une veille technique</h4>
-<p> </p>
-<a href="https://github.com/username/credit-risk-scoring">Voir le projet</a>
-</div>
-  
-<div>
-<h4>Réalisez un traitement dans un environnement Big Data sur le Cloud</h4>
-<p> </p>
-<a href="https://github.com/username/credit-risk-scoring">Voir le projet</a>
-</div>
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projets</h2>
+        <p class="section-intro">
+          Une sélection de projets représentatifs de mes compétences techniques et de ma capacité à répondre à des problématiques réelles.
+        </p>
 
-<div>
-<h4> Maintenance Conditionnelle(CBM) des systèmes TGV </h4>
-<p>Analyse des données et maintenance des systèmes toilletes</p>
-<a href="https://github.com/username/credit-risk-scoring">Voir le projet</a>
-</div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-tag">Machine Learning • Scoring</p>
+              <h3>Credit Risk Scoring</h3>
+              <p>
+                Développement d’un modèle de scoring pour prédire le risque de défaut de paiement,
+                avec préparation des données, modélisation et interprétation des résultats.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/TON-USERNAME/credit-risk-scoring" target="_blank" rel="noopener noreferrer">Voir le projet</a>
+              </div>
+            </div>
+          </article>
 
-<p>Voir mon GitHub:</p>
-<a href="https://github.com/MATCOCO26">Mon GitHub</a>
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-tag">Dashboard • Visualisation</p>
+              <h3>Dashboard & Veille Technique</h3>
+              <p>
+                Conception d’un dashboard interactif pour l’analyse de données et mise en place
+                d’une veille technique structurée sur les outils et tendances data.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/TON-USERNAME/NOM-DU-REPO-2" target="_blank" rel="noopener noreferrer">Voir le projet</a>
+              </div>
+            </div>
+          </article>
 
-  
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-tag">Big Data • Cloud</p>
+              <h3>Traitement Big Data sur le Cloud</h3>
+              <p>
+                Pipeline de traitement de données à grande échelle dans un environnement cloud,
+                avec logique distribuée et industrialisation du flux de traitement.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/TON-USERNAME/NOM-DU-REPO-3" target="_blank" rel="noopener noreferrer">Voir le projet</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-tag">Maintenance prédictive • CBM</p>
+              <h3>Maintenance Conditionnelle des systèmes TGV</h3>
+              <p>
+                Analyse de données issues d’équipements techniques pour détecter des signaux utiles
+                à la maintenance conditionnelle et améliorer l’aide à la décision.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/TON-USERNAME/NOM-DU-REPO-4" target="_blank" rel="noopener noreferrer">Voir le projet</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-tag">Segmentation • Marketing</p>
+              <h3>Segmentation clients e-commerce</h3>
+              <p>
+                Segmentation de clients à partir de données comportementales afin d’identifier
+                des groupes homogènes et proposer des pistes d’activation métier.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/TON-USERNAME/NOM-DU-REPO-5" target="_blank" rel="noopener noreferrer">Voir le projet</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-tag">NLP • IA générative</p>
+              <h3>Projet NLP / IA générative</h3>
+              <p>
+                Projet orienté traitement du langage ou IA générative pour démontrer
+                la maîtrise des approches modernes et leur application à un cas concret.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/TON-USERNAME/NOM-DU-REPO-6" target="_blank" rel="noopener noreferrer">Voir le projet</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="section-intro">
+          Disponible pour échanger sur des opportunités en data science, machine learning, NLP ou projets data orientés métier.
+        </p>
+
+        <div class="contact-links">
+          <a class="contact-card" href="https://github.com/TON-USERNAME" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+          <a class="contact-card" href="https://www.linkedin.com/in/TON-LINKEDIN" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+          <a class="contact-card" href="mailto:tonmail@example.com">
+            Email
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Cédric Gassuc — Portfolio Data Scientist</p>
+    </div>
+  </footer>
 </body>
 </html>
+
+ 
