@@ -7,34 +7,6 @@ css
     padding: 40px;
 }
 
-.navbar {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background: rgba(248, 250, 252, 0.9);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--line);
-}
-
-.nav-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 18px 0;
-  gap: 20px;
-}
-
-.logo {
-  font-weight: 800;
-  font-size: 1.05rem;
-  color: var(--text);
-}
-
-.logo:hover {
-  text-decoration: none;
-}
-
-
 h1 {
     color: #2c3e50;
 }
