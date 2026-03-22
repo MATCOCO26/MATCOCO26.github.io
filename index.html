@@ -1,81 +1,107 @@
-<!DOCTYPE html>
-<html>
+<header class="site-header">
+  <div class="container nav">
+    <div class="logo">Cédric Gassuc</div>
+    <nav class="nav-links">
+      <a href="#about">À propos</a>
+      <a href="#skills">Compétences</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
-<head>
-<title>Portfolio</title>
-  
-<link rel="stylesheet" href="style.css">
-</head>
-  
-<body>
-  
-<h1>  Portfolio </h1>
-<p></p>
-<p></p>
-<h2> Bonjour, je suis Cédric Gassuc </h2>
-<p> Data Scientist spécialisé en : </p>
-<ul>
-<li> Machine Learning </li>
-<li> Deep Learning </li>
-<li> IA générative </li>
-<li> Maintenance Conditionnelle(CBM) </li>
-<li> NLP </li>
-</ul>
+<main>
+  <section class="hero" id="about">
+    <div class="container hero-content">
+      <div>
+        <span class="hero-badge">Data Scientist • ML • NLP • IA Générative</span>
+        <h1>Bonjour, je suis <span>Cédric Gassuc</span></h1>
+        <p>
+          Je conçois des solutions data et intelligence artificielle orientées
+          métier : scoring, NLP, RAG, deep learning et maintenance conditionnelle.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-secondary">Me contacter</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<h2>Mes projets</h2>
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Compétences</h2>
+      <p class="section-subtitle">
+        Expertise appliquée à des cas d’usage concrets en entreprise.
+      </p>
 
-<ul>
-<li>Credit Risk Scoring</li>
-<li>Mettre sur pied un chatbot RAG pour un LLM </li>
-<li>Réalisez un dashboard et assurez une veille technique</li>
-<li>Réalisez un traitement dans un environnement Big Data sur le Cloud</li>
-<li>Maintenance Conditionnelle(CBM) des systèmes TGV</li>
-<li>Segmentez des clients d'un site e-commerce</li>
-</ul>
+      <div class="skills-grid">
+        <div class="skill-item">Machine Learning</div>
+        <div class="skill-item">Deep Learning</div>
+        <div class="skill-item">IA générative</div>
+        <div class="skill-item">NLP</div>
+        <div class="skill-item">Maintenance Conditionnelle (CBM)</div>
+        <div class="skill-item">Déploiement Cloud & MLOps</div>
+      </div>
+    </div>
+  </section>
 
-<h2>Projets</h2>
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Mes projets</h2>
+      <p class="section-subtitle">
+        Quelques réalisations orientées valeur métier, industrialisation et impact.
+      </p>
 
-<div>
-<h3>Credit Risk Scoring</h3>
-<p>Implémention d'un Modèle de Scoring</p>
-<a href="https://github.com/username/credit-risk-scoring">Voir le projet</a>
-</div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div>
+            <span class="project-tag">Machine Learning</span>
+            <h3>Credit Risk Scoring</h3>
+            <p>
+              Implémentation d’un modèle de scoring crédit avec logique métier,
+              interprétabilité et perspective de déploiement.
+            </p>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Voir le projet →</a>
+          </div>
+        </article>
 
-<div>
-<h3>Mettre sur pied un chatbot RAG pour un LLM</h3>
-<p><b>Problème :</b> Les agents d’accueil de mairie traitent un volume élevé de demandes administratives répétitives.
-</p>
-<a href="https://github.com/username/chatbot RAG pour un LLM">Voir le projet</a>
-</div>  
-  
-<div>
-<h3>Réalisez un dashboard et assurez une veille technique</h3>
-<p> </p>
-<a href="https://github.com/username/veille technique">Voir le projet</a>
-</div>
-  
-<div>
-<h3>Réalisez un traitement dans un environnement Big Data sur le Cloud</h3>
-<p> </p>
-<a href="https://github.com/username/Big Data sur le Cloud">Voir le projet</a>
-</div>
+        <article class="project-card">
+          <div>
+            <span class="project-tag">RAG / LLM</span>
+            <h3>Chatbot RAG pour un LLM</h3>
+            <p>
+              Conception d’un assistant capable de traiter des demandes
+              administratives répétitives à partir d’une base documentaire.
+            </p>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Voir le projet →</a>
+          </div>
+        </article>
 
-<div>
-<h3> Maintenance Conditionnelle(CBM) des systèmes TGV </h3>
-<p>Analyse des données et maintenance des systèmes toilletes</p>
-<a href="https://github.com/username/Maintenance Conditionnelle(CBM)">Voir le projet</a>
-</div>
+        <article class="project-card">
+          <div>
+            <span class="project-tag">Dashboard & Veille</span>
+            <h3>Dashboard analytique et veille technique</h3>
+            <p>
+              Réalisation d’un tableau de bord de pilotage combiné à une
+              démarche de veille technologique structurée.
+            </p>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Voir le projet →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
 
-<div>
-<h3> Segmentez des clients d'un site e-commerce </h3>
-<p></p>
-<a href="https://github.com/username/Segmentation Client">Voir le projet</a>
-</div>  
-
-<p>Voir mon GitHub:</p>
-<a href="https://github.com/MATCOCO26">Mon GitHub</a>
-
-  
-</body>
-</html>
-
+<footer class="footer" id="contact">
+  <div class="container">
+    © 2026 – Cédric Gassuc • Portfolio Data Scientist
+  </div>
+</footer>
